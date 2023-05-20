@@ -22,3 +22,4 @@ hdiutil attach $HOME/Desktop/WimlibDev.dmg
 rsync -avh --progress --exclude=sources/install.wim /Volumes/WIN/ /Volumes/WINUSB
 /Volumes/WimlibDev/usr/local/bin/wimlib-imagex split /Volumes/WIN/sources/install.wim /Volumes/WINUSB/sources/install.swm 3500
 ```
+![Screenshot 2](https://github.com/chris1111/Create-WimlibDev/assets/6248794/565933aa-69cb-4a3b-ace0-24b4d234d078)
