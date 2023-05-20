@@ -10,11 +10,11 @@ WimlibDev Disk Image is use on [Create-Windows-USB](https://github.com/chris1111
 
 ![Screenshot](https://github.com/chris1111/Create-WimlibDev/assets/6248794/a89b5ade-adf1-4682-ba07-3e8d119eaff3)
 
-Usage: ⇩
+Manuel Usage: ⇩
 - Make sure `WimlibDev.dmg` and your `Win11_22H2_English_x64v1.iso` is on Desktop
 - Format your 8GB USB drive as MS-DOS (FAT) / Master Boot Record, then rename it to `WINUSB` to match the commands
 
-Using from Terminal Command: ⇩
+Terminal Command: ⇩
 
 ```bash
 hdiutil mount -noverify -nobrowse -mountpoint /Volumes/WIN $HOME/Desktop/Win11_22H2_English_x64v1.iso
